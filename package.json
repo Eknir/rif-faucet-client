@@ -1,5 +1,5 @@
 {
-  "name": "rif-faucet-client",
+  "name": "special-rif-faucet-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

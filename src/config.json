@@ -1,6 +1,6 @@
 {
-    "rif": "0x19F64674D8A5B4E652319F5e239eFd3bc969A1fE",
-    "faucet": "0x248b320687eBF655f9ee7f62f0388c79fBB7b2f4",
+    "rif": "0xECCB2Ff130983823291C299EC411Af27F6633f4C",
+    "faucet": "0xcF63475D753b5393115aEAd0A4E9D4a66fA41BA2",
     "networkId": "31",
-    "publicNode": "https://public-node.testnet.rsk.co"
+    "publicNode": "http://3.16.128.108:4444/"
 }

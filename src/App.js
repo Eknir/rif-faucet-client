@@ -41,8 +41,8 @@ class App extends Component {
         <Container style={{ textAlign: 'center' }}>
           <Row>
             <Col>
-              <h1>rif testnet faucet</h1>
-              <h3><small>Get tRIF tokens and test your RIFOS implementations</small></h3>
+              <h1>RIF Storage testnet faucet</h1>
+              <h3><small>Get test RIF Storage tokens for RIF Storage </small></h3>
             </Col>
           </Row>
           {
@@ -50,7 +50,7 @@ class App extends Component {
             <Row>
               <Col>
                 <Alert variant="warning" show={showMetamaskAlert}>
-                  <Alert.Heading>Get Metamask or Nifty wallet</Alert.Heading>
+                  <Alert.Heading>Get Metamask or Nofty wallet</Alert.Heading>
                   <p>
                     <a href='https://metamask.io/' target='_blank' rel='noopener noreferrer'>Download Metamask</a>
                   </p>
@@ -61,7 +61,7 @@ class App extends Component {
                 <Alert variant="warning" show={!showMetamaskAlert && (gettingNetwork || (network !== undefined && network !== config.networkId)) }>
                   <Alert.Heading>Connect to RSK Testnet network.</Alert.Heading>
                   <p>
-                    The tRIF faucet dispense RIF Tokens only in RSK testnet.
+                    The RIF storage faucet dispense (special) tRIF Tokens only in RSK testnet.
                   </p>
                   <hr />
                   <p className="mb-0">
@@ -99,7 +99,7 @@ class App extends Component {
           <Row>
             <Col>
               <p>
-                tRIF address: <a href={`https://explorer.testnet.rsk.co/address/${config.rif}`} target='_blank' rel='noopener noreferrer'>{config.rif}</a><br />
+                Rif Storage token address: <a href={`https://explorer.testnet.rsk.co/address/${config.rif}`} target='_blank' rel='noopener noreferrer'>{config.rif}</a><br />
                 faucet address: <a href={`https://explorer.testnet.rsk.co/address/${config.faucet}`} target='_blank' rel='noopener noreferrer'>{config.faucet}</a>
               </p>
             </Col>
